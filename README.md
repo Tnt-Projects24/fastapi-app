@@ -36,8 +36,12 @@ A comprehensive product inventory management system built with FastAPI backend a
    ```bash
    uvicorn main:app --reload
    ```
-
-4. **Access the API:**
+4. **Create .env file in the projectRoot:**
+   ```bash
+   For Oracle:
+      DATABASE_URL="oracle+oracledb://dbuser:dbpass@DBHost:DBPORT/?service_name=DB_SERVICE"
+   ```
+5. **Access the API:**
    - API: http://localhost:8000
    - Interactive docs: http://localhost:8000/docs
    - ReDoc: http://localhost:8000/redoc
