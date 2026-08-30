@@ -41,7 +41,12 @@ A comprehensive product inventory management system built with FastAPI backend a
    For Oracle:
       DATABASE_URL="oracle+oracledb://dbuser:dbpass@DBHost:DBPORT/?service_name=DB_SERVICE"
    ```
-5. **Access the API:**
+5. **Test the APIs with swagger:**
+   ```bash
+   Access the following link and test the available APIs
+   http://localhost:8000/docs#
+   ```   
+6. **Access the API:**
    - API: http://localhost:8000
    - Interactive docs: http://localhost:8000/docs
    - ReDoc: http://localhost:8000/redoc
