@@ -18,8 +18,8 @@ A comprehensive product inventory management system built with FastAPI backend a
    Go to the All projects folder
       cd I:\Projects\UV-Projects
    Initialize UV
-      uv add fastapi
-      This will create the fastapi folder
+      uv add fastapi-app
+      This will create the fastapi-app folder
    
    Activate Virtual env
       cd I:\Projects\UV-Projects\fastapi-app
