@@ -1,5 +1,5 @@
 
-# Telusko Trac - Product Inventory Management
+# Tarun & Tanuj FASTAPI Project
 
 A comprehensive product inventory management system built with FastAPI backend and React frontend, providing seamless tracking and management of product inventory.
 
@@ -14,13 +14,22 @@ A comprehensive product inventory management system built with FastAPI backend a
 
 1. **Create and activate virtual environment:**
    ```bash
-   python -m venv myenv
-   myenv\Scripts\activate.ps1  # Windows PowerShell
+   pip install uv
+   Go to the All projects folder
+      cd I:\Projects\UV-Projects
+   Initialize UV
+      uv add fastapi
+      This will create the fastapi folder
+   
+   Activate Virtual env
+      cd I:\Projects\UV-Projects\fastapi-app
+      .vnv\Scripts\activate.ps1  # Windows PowerShell
    ```
 
 2. **Install dependencies:**
    ```bash
-   pip install fastapi uvicorn
+   uv add fastapi uvicorn sqlalchemy oracledb
+   #pip install fastapi uvicorn
    ```
 
 3. **Run the application:**
