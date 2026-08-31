@@ -76,11 +76,15 @@ A comprehensive product inventory management system built with FastAPI backend a
 ## Project Structure
 
 ```
-stocksphere/
-├── main.py          # FastAPI application with endpoints
-├── models.py        # Pydantic models
-├── .gitignore       # Git ignore file
-└── README.md        # This file
+fastapi-app/
+├── main.py               # FastAPI application with endpoints
+├── models.py             # Pydantic models for DB table
+├── database.py           # To get a handle to the DB connection
+├── database_models.py    # Table Structure for the product 
+├── .gitignore            # Git ignore file
+├── Dockerfile.yaml       # Dockerfile for building a docker image
+├── compose.yaml          # Compose file to run the container.
+└── README.md             # This file
 ```
 
 ## API Usage Examples
