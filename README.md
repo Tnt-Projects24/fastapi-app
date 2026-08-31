@@ -107,10 +107,10 @@ curl -X POST "http://localhost:8000/products/" \
      -H "Content-Type: application/json" \
      -d '{
        "id": 5,
-       "name": "Monitor",
-       "description": "4K monitor",
-       "price": 299.99,
-       "quantity": 15
+       "name": "Sony Headphone",
+       "description": "Sony wireless noise-canceling headphone",
+       "price": 229.99,
+       "quantity": 81
      }'
 ```
 
