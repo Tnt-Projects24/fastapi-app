@@ -1,0 +1,9 @@
+services:
+  fastapi-app:
+    image: fastapi-app:1.1
+    container_name: fastapi-app
+    env_file:
+      - .env
+    ports:
+      - "8080:8000"
+    restart: unless-stopped
