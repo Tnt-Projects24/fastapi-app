@@ -52,6 +52,7 @@ A comprehensive product inventory management system built with FastAPI backend a
    - ReDoc: http://localhost:8000/redoc
 
 7. **Docker containerization:**
+ ```bash
    - Refer included Dockerfile for creating the docker image
      To build the image:
          cd /mnt/i/Projects/UV-Projects/fastapi-app
@@ -59,15 +60,16 @@ A comprehensive product inventory management system built with FastAPI backend a
    - Sample Docker compose file is also included
      To start the container:
      docker compose up -d 
-
+```
 8. **If WSL (Windows Subsystem for Linux) is used for docker:**
+ ```bash
    - Open the Firewall and allow port forwarging, so other container can be accessed from the netwok
    - Sampe port forwarding command using Powershell:
      netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=172.20.141.18
      Note: 172.20.141.18 is the Linux ip (docker host ip)
    - Sample Firewall Rule:
      netsh advfirewall firewall add rule name="WSL 8080" protocol=TCP dir=in localport=8080 action=allow
- 
+``` 
    
   
 
