@@ -23,7 +23,7 @@ A comprehensive product inventory management system built with FastAPI backend a
    
    Activate Virtual env
       cd I:\Projects\UV-Projects\fastapi-app
-      .vnv\Scripts\activate.ps1  # Windows PowerShell
+      .venv\Scripts\activate.ps1  # Windows PowerShell
    ```
 
 2. **Install dependencies:**
@@ -60,6 +60,8 @@ A comprehensive product inventory management system built with FastAPI backend a
    - Sample Docker compose file is also included
      To start the container:
      docker compose up -d 
+     Note: The following variable should be added to the .env file:
+        DATABASE_URL="oracle+oracledb://dbuser:dbpass@DBHost:DBPORT/?service_name=DB_SERVICE"
 ```
 8. **If WSL (Windows Subsystem for Linux) is used for docker:**
  ```bash
