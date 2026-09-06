@@ -1,7 +1,7 @@
 
-# Tarun & Tanuj FastAPI Project
+# FastAPI Project for inventory management system
 
-A comprehensive product inventory management system built with FastAPI backend and React frontend, providing seamless tracking and management of product inventory.
+A backend Inventory Management System built using FastAPI, Pydantic, Oracle Database, Sqlalchemy, uvicorn, and python uv (virtual environment) for managing product data. The project covers the complete development lifecycle, from API development and database integration to containerized deployment using Docker.
 
 ## Features
 
@@ -72,8 +72,6 @@ A comprehensive product inventory management system built with FastAPI backend a
    - Sample Firewall Rule:
      netsh advfirewall firewall add rule name="WSL 8080" protocol=TCP dir=in localport=8080 action=allow
 ``` 
-   
-  
 
 ## Project Structure
 
